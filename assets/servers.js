@@ -123,10 +123,10 @@
 
   function init() {
     Promise.all([
-      fetch(SERVER_DATA_URL).then(function (response) {
+      fetch(SERVER_DATA_URL, { cache: 'no-cache' }).then(function (response) {
         return response.json();
       }),
-      fetch(ALLIANCE_DATA_URL).then(function (response) {
+      fetch(ALLIANCE_DATA_URL, { cache: 'no-cache' }).then(function (response) {
         return response.json();
       })
     ]).then(function (results) {
