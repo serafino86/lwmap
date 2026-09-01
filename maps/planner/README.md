@@ -1,9 +1,9 @@
-# Season 5 Planner
+# Season 6 Planner
 
-Questo planner locale serve per studiare e usare in modo operativo la mappa Season 5 di Last War, prendendo come riferimento pubblico:
+Questo planner locale serve per studiare e usare in modo operativo la mappa Season 6 di Last War, prendendo come riferimento pubblico:
 
-- mappa live Season 5 interactive
-- guida live Golden Palace conquest
+- mappa live Season 6 interactive
+- guida live conquista Season 6
 
 ## File principali
 
@@ -13,9 +13,9 @@ Questo planner locale serve per studiare e usare in modo operativo la mappa Seas
 
 ## Dati usati
 
-- `../../assets/data/season-5-territories.json`
-- `../../assets/data/season-5-poi-points.json`
-- `../../assets/data/season-5-strategic-poi.json`
+- `../../assets/data/season-6-territories.json`
+- `../../assets/data/season-6-poi-points.json`
+- `../../assets/data/season-6-strategic-poi.json`
 
 ## Documentazione di lavoro
 
@@ -36,7 +36,7 @@ Il planner oggi supporta:
 - assegnazione territori
 - path planning
 - import/export grid JSON
-- simulazione di piu` piani di conquista Golden Palace
+- simulazione di piu` piani di conquista Sanctuary
 - confronto umano delle soluzioni proposte
 
 ## Nota importante
@@ -47,5 +47,5 @@ Non va considerato come una replica perfetta del motore di gioco reale.
 Le proposte vanno validate a occhio confrontandole con:
 
 - layout live della mappa
-- regole di conquista Season 5
+- regole di conquista Season 6
 - esperienza pratica di alleanza

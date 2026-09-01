@@ -35,7 +35,7 @@ Route principali osservate via sitemap:
 - `/maps/season-3/interactive`
 - `/maps/season-3/artifacts`
 - `/maps/season-4/interactive`
-- `/maps/season-5/interactive`
+- `/maps/season-6/interactive`
 - `/calculators`
 - `/calculators/*`
 - `/events`

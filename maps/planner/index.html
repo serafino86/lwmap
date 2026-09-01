@@ -15,7 +15,6 @@
           <a href="../../events/ammo-bonanza/" data-i18n="nav_ammo">Ammo Bonanza</a>
           <a href="../../servers/" data-i18n="nav_servers">Servers</a>
           <a href="../../maps/planner/" aria-current="page" data-i18n="nav_planner">Planner</a>
-          <a href="../../guide/" data-i18n="nav_guide">Guida S5</a>
         </nav>
         <div style="display:flex;gap:0.4rem;align-items:center">
           <button class="lang-pill active" data-lang="it" type="button">IT</button>
@@ -30,12 +29,12 @@
     <div class="wrap back-bar"><a class="back-btn" href="../../">← Home</a></div>
     <main class="planner-shell">
       <aside class="planner-sidebar card">
-        <h1>Season 5 Map</h1>
+        <h1>Season 6 Map</h1>
         <p class="muted">
-          Viewer territoriale Season 5 con coordinate reali estratte dal bundle pubblico della mappa interattiva.
+          Viewer territoriale Season 6 con coordinate reali estratte dal bundle pubblico della mappa interattiva.
         </p>
 
-        <p id="planner-meta" class="small muted">Caricamento territori Season 5...</p>
+        <p id="planner-meta" class="small muted">Caricamento territori Season 6...</p>
 
         <div class="palette-group">
           <p class="palette-title">Grid</p>
@@ -146,10 +145,8 @@
             <button id="planner-clear-path" class="ghost-button" type="button">Clear path</button>
           </div>
           <div id="planner-simulation-note" class="detail-card">
-            <strong>Season 5 conquest rules</strong>
-            <span class="palette-note">Golden Palace attack windows: Saturday of Week 5, 6 and 7 at 13:00 server time.</span>
-            <span class="palette-note">Attack requires adjacent land through a lv 10 Bank Stronghold or lv 10 City.</span>
-            <span class="palette-note">4 cannons accelerate capture or bombard defenders. Golden Palace awards 1.8m influence.</span>
+            <strong>Season 6 conquest rules</strong>
+            <span class="palette-note">⚠ Regole Season 6 da trascrivere dalla guida pubblica: finestre di attacco, condizione di adiacenza ai Sanctuary, influence per obiettivo, scadenze territori.</span>
           </div>
           <div id="planner-solution-list" class="route-list">
             <div class="route-empty">No simulated plans yet.</div>
@@ -184,8 +181,8 @@
         </div>
 
         <p class="small muted">
-          Dati sorgente in <code>assets/data/season-5-strategic-poi.json</code> e
-          <code>assets/data/season-5-poi-points.json</code>. Stato frontend riallineato alla struttura reale del
+          Dati sorgente in <code>assets/data/season-6-strategic-poi.json</code> e
+          <code>assets/data/season-6-poi-points.json</code>. Stato frontend riallineato alla struttura reale del
           sito: <code>grids</code>, <code>alliances</code>, <code>selectedAllianceId</code> e
           <code>pathSteps</code>.
         </p>
@@ -193,7 +190,7 @@
 
       <section class="planner-stage">
         <div class="planner-toolbar">
-          <span id="planner-status">Season 5 POI map</span>
+          <span id="planner-status">Season 6 POI map</span>
           <div class="planner-day-legend">
             <span class="legend-pill day-1">D1</span>
             <span class="legend-pill day-2">D2</span>
@@ -203,7 +200,7 @@
           </div>
         </div>
         <div class="planner-board card">
-          <svg id="planner-svg" viewBox="0 0 3000 3000" class="planner-svg" aria-label="Season 5 territory map">
+          <svg id="planner-svg" viewBox="0 0 3000 3000" class="planner-svg" aria-label="Season 6 territory map">
             <g id="grid-layer"></g>
             <g id="element-layer"></g>
             <g id="label-layer"></g>

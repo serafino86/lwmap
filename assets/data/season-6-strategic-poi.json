@@ -1,0 +1,3384 @@
+{
+  "season": 6,
+  "extractedFrom": "public Season 6 territories chunk",
+  "sourcePath": "/_next/static/chunks/5407.eaf47e9445bd4461.js",
+  "extractedAt": "2026-09-01T12:04:40.851797+00:00",
+  "poi": [
+    {
+      "id": "poi:A61",
+      "sourceId": "A61",
+      "sourceName": "Wetland Sanctuary",
+      "category": "capital",
+      "label": "Wetland Sanctuary",
+      "shortLabel": "WS7",
+      "level": 7,
+      "x": 500,
+      "y": 500,
+      "gridX": 9,
+      "gridY": 9,
+      "width": 100,
+      "height": 100,
+      "buff": {
+        "item": "march speed",
+        "percentage": 10
+      },
+      "resources": {
+        "influence": 200000
+      },
+      "isCapitol": true,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A155",
+      "sourceId": "A155",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 350,
+      "y": 350,
+      "gridX": 6,
+      "gridY": 6,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A156",
+      "sourceId": "A156",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 450,
+      "y": 350,
+      "gridX": 8,
+      "gridY": 6,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A157",
+      "sourceId": "A157",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 550,
+      "y": 350,
+      "gridX": 10,
+      "gridY": 6,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A158",
+      "sourceId": "A158",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 650,
+      "y": 350,
+      "gridX": 12,
+      "gridY": 6,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A165",
+      "sourceId": "A165",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 350,
+      "y": 450,
+      "gridX": 6,
+      "gridY": 8,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A166",
+      "sourceId": "A166",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 450,
+      "y": 450,
+      "gridX": 8,
+      "gridY": 8,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A167",
+      "sourceId": "A167",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 550,
+      "y": 450,
+      "gridX": 10,
+      "gridY": 8,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A168",
+      "sourceId": "A168",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 650,
+      "y": 450,
+      "gridX": 12,
+      "gridY": 8,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A175",
+      "sourceId": "A175",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 350,
+      "y": 550,
+      "gridX": 6,
+      "gridY": 10,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A176",
+      "sourceId": "A176",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 450,
+      "y": 550,
+      "gridX": 8,
+      "gridY": 10,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A177",
+      "sourceId": "A177",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 550,
+      "y": 550,
+      "gridX": 10,
+      "gridY": 10,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A178",
+      "sourceId": "A178",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 650,
+      "y": 550,
+      "gridX": 12,
+      "gridY": 10,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A185",
+      "sourceId": "A185",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 350,
+      "y": 650,
+      "gridX": 6,
+      "gridY": 12,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A186",
+      "sourceId": "A186",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 450,
+      "y": 650,
+      "gridX": 8,
+      "gridY": 12,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A187",
+      "sourceId": "A187",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 550,
+      "y": 650,
+      "gridX": 10,
+      "gridY": 12,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:A188",
+      "sourceId": "A188",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 650,
+      "y": 650,
+      "gridX": 12,
+      "gridY": 12,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "A"
+      }
+    },
+    {
+      "id": "poi:B61",
+      "sourceId": "B61",
+      "sourceName": "Wetland Sanctuary",
+      "category": "capital",
+      "label": "Wetland Sanctuary",
+      "shortLabel": "WS7",
+      "level": 7,
+      "x": 500,
+      "y": 1500,
+      "gridX": 9,
+      "gridY": 29,
+      "width": 100,
+      "height": 100,
+      "buff": {
+        "item": "march speed",
+        "percentage": 10
+      },
+      "resources": {
+        "influence": 200000
+      },
+      "isCapitol": true,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B155",
+      "sourceId": "B155",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 350,
+      "y": 1350,
+      "gridX": 6,
+      "gridY": 26,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B156",
+      "sourceId": "B156",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 450,
+      "y": 1350,
+      "gridX": 8,
+      "gridY": 26,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B157",
+      "sourceId": "B157",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 550,
+      "y": 1350,
+      "gridX": 10,
+      "gridY": 26,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B158",
+      "sourceId": "B158",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 650,
+      "y": 1350,
+      "gridX": 12,
+      "gridY": 26,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B165",
+      "sourceId": "B165",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 350,
+      "y": 1450,
+      "gridX": 6,
+      "gridY": 28,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B166",
+      "sourceId": "B166",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 450,
+      "y": 1450,
+      "gridX": 8,
+      "gridY": 28,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B167",
+      "sourceId": "B167",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 550,
+      "y": 1450,
+      "gridX": 10,
+      "gridY": 28,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B168",
+      "sourceId": "B168",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 650,
+      "y": 1450,
+      "gridX": 12,
+      "gridY": 28,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B175",
+      "sourceId": "B175",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 350,
+      "y": 1550,
+      "gridX": 6,
+      "gridY": 30,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B176",
+      "sourceId": "B176",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 450,
+      "y": 1550,
+      "gridX": 8,
+      "gridY": 30,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B177",
+      "sourceId": "B177",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 550,
+      "y": 1550,
+      "gridX": 10,
+      "gridY": 30,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B178",
+      "sourceId": "B178",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 650,
+      "y": 1550,
+      "gridX": 12,
+      "gridY": 30,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B185",
+      "sourceId": "B185",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 350,
+      "y": 1650,
+      "gridX": 6,
+      "gridY": 32,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B186",
+      "sourceId": "B186",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 450,
+      "y": 1650,
+      "gridX": 8,
+      "gridY": 32,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B187",
+      "sourceId": "B187",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 550,
+      "y": 1650,
+      "gridX": 10,
+      "gridY": 32,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:B188",
+      "sourceId": "B188",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 650,
+      "y": 1650,
+      "gridX": 12,
+      "gridY": 32,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "B"
+      }
+    },
+    {
+      "id": "poi:C61",
+      "sourceId": "C61",
+      "sourceName": "Deepwood Sanctuary",
+      "category": "capital",
+      "label": "Deepwood Sanctuary",
+      "shortLabel": "DS7",
+      "level": 7,
+      "x": 500,
+      "y": 2500,
+      "gridX": 9,
+      "gridY": 49,
+      "width": 100,
+      "height": 100,
+      "buff": {
+        "item": "march speed",
+        "percentage": 10
+      },
+      "resources": {
+        "influence": 200000
+      },
+      "isCapitol": true,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C155",
+      "sourceId": "C155",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 350,
+      "y": 2350,
+      "gridX": 6,
+      "gridY": 46,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C156",
+      "sourceId": "C156",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 450,
+      "y": 2350,
+      "gridX": 8,
+      "gridY": 46,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C157",
+      "sourceId": "C157",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 550,
+      "y": 2350,
+      "gridX": 10,
+      "gridY": 46,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C158",
+      "sourceId": "C158",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 650,
+      "y": 2350,
+      "gridX": 12,
+      "gridY": 46,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C165",
+      "sourceId": "C165",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 350,
+      "y": 2450,
+      "gridX": 6,
+      "gridY": 48,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C166",
+      "sourceId": "C166",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 450,
+      "y": 2450,
+      "gridX": 8,
+      "gridY": 48,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C167",
+      "sourceId": "C167",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 550,
+      "y": 2450,
+      "gridX": 10,
+      "gridY": 48,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C168",
+      "sourceId": "C168",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 650,
+      "y": 2450,
+      "gridX": 12,
+      "gridY": 48,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C175",
+      "sourceId": "C175",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 350,
+      "y": 2550,
+      "gridX": 6,
+      "gridY": 50,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C176",
+      "sourceId": "C176",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 450,
+      "y": 2550,
+      "gridX": 8,
+      "gridY": 50,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C177",
+      "sourceId": "C177",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 550,
+      "y": 2550,
+      "gridX": 10,
+      "gridY": 50,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C178",
+      "sourceId": "C178",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 650,
+      "y": 2550,
+      "gridX": 12,
+      "gridY": 50,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C185",
+      "sourceId": "C185",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 350,
+      "y": 2650,
+      "gridX": 6,
+      "gridY": 52,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C186",
+      "sourceId": "C186",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 450,
+      "y": 2650,
+      "gridX": 8,
+      "gridY": 52,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C187",
+      "sourceId": "C187",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 550,
+      "y": 2650,
+      "gridX": 10,
+      "gridY": 52,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:C188",
+      "sourceId": "C188",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 650,
+      "y": 2650,
+      "gridX": 12,
+      "gridY": 52,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "C"
+      }
+    },
+    {
+      "id": "poi:D61",
+      "sourceId": "D61",
+      "sourceName": "Deepwood Sanctuary",
+      "category": "capital",
+      "label": "Deepwood Sanctuary",
+      "shortLabel": "DS7",
+      "level": 7,
+      "x": 1500,
+      "y": 2500,
+      "gridX": 29,
+      "gridY": 49,
+      "width": 100,
+      "height": 100,
+      "buff": {
+        "item": "march speed",
+        "percentage": 10
+      },
+      "resources": {
+        "influence": 200000
+      },
+      "isCapitol": true,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D155",
+      "sourceId": "D155",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1350,
+      "y": 2350,
+      "gridX": 26,
+      "gridY": 46,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D156",
+      "sourceId": "D156",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1450,
+      "y": 2350,
+      "gridX": 28,
+      "gridY": 46,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D157",
+      "sourceId": "D157",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1550,
+      "y": 2350,
+      "gridX": 30,
+      "gridY": 46,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D158",
+      "sourceId": "D158",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1650,
+      "y": 2350,
+      "gridX": 32,
+      "gridY": 46,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D165",
+      "sourceId": "D165",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1350,
+      "y": 2450,
+      "gridX": 26,
+      "gridY": 48,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D166",
+      "sourceId": "D166",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 1450,
+      "y": 2450,
+      "gridX": 28,
+      "gridY": 48,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D167",
+      "sourceId": "D167",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 1550,
+      "y": 2450,
+      "gridX": 30,
+      "gridY": 48,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D168",
+      "sourceId": "D168",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1650,
+      "y": 2450,
+      "gridX": 32,
+      "gridY": 48,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D175",
+      "sourceId": "D175",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1350,
+      "y": 2550,
+      "gridX": 26,
+      "gridY": 50,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D176",
+      "sourceId": "D176",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 1450,
+      "y": 2550,
+      "gridX": 28,
+      "gridY": 50,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D177",
+      "sourceId": "D177",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 1550,
+      "y": 2550,
+      "gridX": 30,
+      "gridY": 50,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D178",
+      "sourceId": "D178",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1650,
+      "y": 2550,
+      "gridX": 32,
+      "gridY": 50,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D185",
+      "sourceId": "D185",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1350,
+      "y": 2650,
+      "gridX": 26,
+      "gridY": 52,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D186",
+      "sourceId": "D186",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1450,
+      "y": 2650,
+      "gridX": 28,
+      "gridY": 52,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D187",
+      "sourceId": "D187",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1550,
+      "y": 2650,
+      "gridX": 30,
+      "gridY": 52,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:D188",
+      "sourceId": "D188",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1650,
+      "y": 2650,
+      "gridX": 32,
+      "gridY": 52,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "D"
+      }
+    },
+    {
+      "id": "poi:E61",
+      "sourceId": "E61",
+      "sourceName": "Wetland Sanctuary",
+      "category": "capital",
+      "label": "Wetland Sanctuary",
+      "shortLabel": "WS7",
+      "level": 7,
+      "x": 2500,
+      "y": 2500,
+      "gridX": 49,
+      "gridY": 49,
+      "width": 100,
+      "height": 100,
+      "buff": {
+        "item": "march speed",
+        "percentage": 10
+      },
+      "resources": {
+        "influence": 200000
+      },
+      "isCapitol": true,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E155",
+      "sourceId": "E155",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2350,
+      "y": 2350,
+      "gridX": 46,
+      "gridY": 46,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E156",
+      "sourceId": "E156",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2450,
+      "y": 2350,
+      "gridX": 48,
+      "gridY": 46,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E157",
+      "sourceId": "E157",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2550,
+      "y": 2350,
+      "gridX": 50,
+      "gridY": 46,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E158",
+      "sourceId": "E158",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2650,
+      "y": 2350,
+      "gridX": 52,
+      "gridY": 46,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E165",
+      "sourceId": "E165",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2350,
+      "y": 2450,
+      "gridX": 46,
+      "gridY": 48,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E166",
+      "sourceId": "E166",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 2450,
+      "y": 2450,
+      "gridX": 48,
+      "gridY": 48,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E167",
+      "sourceId": "E167",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 2550,
+      "y": 2450,
+      "gridX": 50,
+      "gridY": 48,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E168",
+      "sourceId": "E168",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2650,
+      "y": 2450,
+      "gridX": 52,
+      "gridY": 48,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E175",
+      "sourceId": "E175",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2350,
+      "y": 2550,
+      "gridX": 46,
+      "gridY": 50,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E176",
+      "sourceId": "E176",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 2450,
+      "y": 2550,
+      "gridX": 48,
+      "gridY": 50,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E177",
+      "sourceId": "E177",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 2550,
+      "y": 2550,
+      "gridX": 50,
+      "gridY": 50,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E178",
+      "sourceId": "E178",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2650,
+      "y": 2550,
+      "gridX": 52,
+      "gridY": 50,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E185",
+      "sourceId": "E185",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2350,
+      "y": 2650,
+      "gridX": 46,
+      "gridY": 52,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E186",
+      "sourceId": "E186",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2450,
+      "y": 2650,
+      "gridX": 48,
+      "gridY": 52,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E187",
+      "sourceId": "E187",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2550,
+      "y": 2650,
+      "gridX": 50,
+      "gridY": 52,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:E188",
+      "sourceId": "E188",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2650,
+      "y": 2650,
+      "gridX": 52,
+      "gridY": 52,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "E"
+      }
+    },
+    {
+      "id": "poi:F61",
+      "sourceId": "F61",
+      "sourceName": "Wetland Sanctuary",
+      "category": "capital",
+      "label": "Wetland Sanctuary",
+      "shortLabel": "WS7",
+      "level": 7,
+      "x": 2500,
+      "y": 1500,
+      "gridX": 49,
+      "gridY": 29,
+      "width": 100,
+      "height": 100,
+      "buff": {
+        "item": "march speed",
+        "percentage": 10
+      },
+      "resources": {
+        "influence": 200000
+      },
+      "isCapitol": true,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F155",
+      "sourceId": "F155",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2350,
+      "y": 1350,
+      "gridX": 46,
+      "gridY": 26,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F156",
+      "sourceId": "F156",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2450,
+      "y": 1350,
+      "gridX": 48,
+      "gridY": 26,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F157",
+      "sourceId": "F157",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2550,
+      "y": 1350,
+      "gridX": 50,
+      "gridY": 26,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F158",
+      "sourceId": "F158",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2650,
+      "y": 1350,
+      "gridX": 52,
+      "gridY": 26,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F165",
+      "sourceId": "F165",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2350,
+      "y": 1450,
+      "gridX": 46,
+      "gridY": 28,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F166",
+      "sourceId": "F166",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 2450,
+      "y": 1450,
+      "gridX": 48,
+      "gridY": 28,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F167",
+      "sourceId": "F167",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 2550,
+      "y": 1450,
+      "gridX": 50,
+      "gridY": 28,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F168",
+      "sourceId": "F168",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2650,
+      "y": 1450,
+      "gridX": 52,
+      "gridY": 28,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F175",
+      "sourceId": "F175",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2350,
+      "y": 1550,
+      "gridX": 46,
+      "gridY": 30,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F176",
+      "sourceId": "F176",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 2450,
+      "y": 1550,
+      "gridX": 48,
+      "gridY": 30,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F177",
+      "sourceId": "F177",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 2550,
+      "y": 1550,
+      "gridX": 50,
+      "gridY": 30,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F178",
+      "sourceId": "F178",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2650,
+      "y": 1550,
+      "gridX": 52,
+      "gridY": 30,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F185",
+      "sourceId": "F185",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2350,
+      "y": 1650,
+      "gridX": 46,
+      "gridY": 32,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F186",
+      "sourceId": "F186",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2450,
+      "y": 1650,
+      "gridX": 48,
+      "gridY": 32,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F187",
+      "sourceId": "F187",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2550,
+      "y": 1650,
+      "gridX": 50,
+      "gridY": 32,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:F188",
+      "sourceId": "F188",
+      "sourceName": "Wetland Assembly",
+      "category": "nexus",
+      "label": "Wetland Assembly",
+      "shortLabel": "WA3",
+      "level": 3,
+      "x": 2650,
+      "y": 1650,
+      "gridX": 52,
+      "gridY": 32,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "F"
+      }
+    },
+    {
+      "id": "poi:G61",
+      "sourceId": "G61",
+      "sourceName": "Deepwood Sanctuary",
+      "category": "capital",
+      "label": "Deepwood Sanctuary",
+      "shortLabel": "DS7",
+      "level": 7,
+      "x": 2500,
+      "y": 500,
+      "gridX": 49,
+      "gridY": 9,
+      "width": 100,
+      "height": 100,
+      "buff": {
+        "item": "march speed",
+        "percentage": 10
+      },
+      "resources": {
+        "influence": 200000
+      },
+      "isCapitol": true,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G155",
+      "sourceId": "G155",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 2350,
+      "y": 350,
+      "gridX": 46,
+      "gridY": 6,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G156",
+      "sourceId": "G156",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 2450,
+      "y": 350,
+      "gridX": 48,
+      "gridY": 6,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G157",
+      "sourceId": "G157",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 2550,
+      "y": 350,
+      "gridX": 50,
+      "gridY": 6,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G158",
+      "sourceId": "G158",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 2650,
+      "y": 350,
+      "gridX": 52,
+      "gridY": 6,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G165",
+      "sourceId": "G165",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 2350,
+      "y": 450,
+      "gridX": 46,
+      "gridY": 8,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G166",
+      "sourceId": "G166",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 2450,
+      "y": 450,
+      "gridX": 48,
+      "gridY": 8,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G167",
+      "sourceId": "G167",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 2550,
+      "y": 450,
+      "gridX": 50,
+      "gridY": 8,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G168",
+      "sourceId": "G168",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 2650,
+      "y": 450,
+      "gridX": 52,
+      "gridY": 8,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G175",
+      "sourceId": "G175",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 2350,
+      "y": 550,
+      "gridX": 46,
+      "gridY": 10,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G176",
+      "sourceId": "G176",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 2450,
+      "y": 550,
+      "gridX": 48,
+      "gridY": 10,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G177",
+      "sourceId": "G177",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 2550,
+      "y": 550,
+      "gridX": 50,
+      "gridY": 10,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G178",
+      "sourceId": "G178",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 2650,
+      "y": 550,
+      "gridX": 52,
+      "gridY": 10,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G185",
+      "sourceId": "G185",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 2350,
+      "y": 650,
+      "gridX": 46,
+      "gridY": 12,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G186",
+      "sourceId": "G186",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 2450,
+      "y": 650,
+      "gridX": 48,
+      "gridY": 12,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G187",
+      "sourceId": "G187",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 2550,
+      "y": 650,
+      "gridX": 50,
+      "gridY": 12,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:G188",
+      "sourceId": "G188",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 2650,
+      "y": 650,
+      "gridX": 52,
+      "gridY": 12,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "G"
+      }
+    },
+    {
+      "id": "poi:H61",
+      "sourceId": "H61",
+      "sourceName": "Deepwood Sanctuary",
+      "category": "capital",
+      "label": "Deepwood Sanctuary",
+      "shortLabel": "DS7",
+      "level": 7,
+      "x": 1500,
+      "y": 500,
+      "gridX": 29,
+      "gridY": 9,
+      "width": 100,
+      "height": 100,
+      "buff": {
+        "item": "march speed",
+        "percentage": 10
+      },
+      "resources": {
+        "influence": 200000
+      },
+      "isCapitol": true,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H155",
+      "sourceId": "H155",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1350,
+      "y": 350,
+      "gridX": 26,
+      "gridY": 6,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H156",
+      "sourceId": "H156",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1450,
+      "y": 350,
+      "gridX": 28,
+      "gridY": 6,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H157",
+      "sourceId": "H157",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1550,
+      "y": 350,
+      "gridX": 30,
+      "gridY": 6,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H158",
+      "sourceId": "H158",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1650,
+      "y": 350,
+      "gridX": 32,
+      "gridY": 6,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H165",
+      "sourceId": "H165",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1350,
+      "y": 450,
+      "gridX": 26,
+      "gridY": 8,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H166",
+      "sourceId": "H166",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 1450,
+      "y": 450,
+      "gridX": 28,
+      "gridY": 8,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H167",
+      "sourceId": "H167",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 1550,
+      "y": 450,
+      "gridX": 30,
+      "gridY": 8,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H168",
+      "sourceId": "H168",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1650,
+      "y": 450,
+      "gridX": 32,
+      "gridY": 8,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H175",
+      "sourceId": "H175",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1350,
+      "y": 550,
+      "gridX": 26,
+      "gridY": 10,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H176",
+      "sourceId": "H176",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 1450,
+      "y": 550,
+      "gridX": 28,
+      "gridY": 10,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H177",
+      "sourceId": "H177",
+      "sourceName": "Warzone Outpost",
+      "category": "outpost",
+      "label": "Warzone Outpost",
+      "shortLabel": "WO6",
+      "level": 6,
+      "x": 1550,
+      "y": 550,
+      "gridX": 30,
+      "gridY": 10,
+      "width": 50,
+      "height": 50,
+      "buff": null,
+      "resources": null,
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H178",
+      "sourceId": "H178",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1650,
+      "y": 550,
+      "gridX": 32,
+      "gridY": 10,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H185",
+      "sourceId": "H185",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1350,
+      "y": 650,
+      "gridX": 26,
+      "gridY": 12,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H186",
+      "sourceId": "H186",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1450,
+      "y": 650,
+      "gridX": 28,
+      "gridY": 12,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H187",
+      "sourceId": "H187",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1550,
+      "y": 650,
+      "gridX": 30,
+      "gridY": 12,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "research",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    },
+    {
+      "id": "poi:H188",
+      "sourceId": "H188",
+      "sourceName": "Deepwood Assembly",
+      "category": "nexus",
+      "label": "Deepwood Assembly",
+      "shortLabel": "DA3",
+      "level": 3,
+      "x": 1650,
+      "y": 650,
+      "gridX": 32,
+      "gridY": 12,
+      "width": 50,
+      "height": 50,
+      "buff": {
+        "item": "construction",
+        "percentage": 20
+      },
+      "resources": {
+        "influence": 600000
+      },
+      "isCapitol": false,
+      "meta": {
+        "warzone": "H"
+      }
+    }
+  ]
+}

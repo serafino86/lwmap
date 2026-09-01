@@ -650,7 +650,7 @@
       "name": "Abandoned Mine",
       "width": 6,
       "height": 5,
-      "image": "/images/planner/season-5/abandoned-mine.png",
+      "image": "/images/planner/season-6/abandoned-mine.png",
       "color": "#DC2626",
       "seasons": [
         "S5"
@@ -662,7 +662,7 @@
       "name": "Broken Tower",
       "width": 5,
       "height": 5,
-      "image": "/images/planner/season-5/broken-tower.png",
+      "image": "/images/planner/season-6/broken-tower.png",
       "color": "#DC2626",
       "seasons": [
         "S5"
@@ -674,7 +674,7 @@
       "name": "Old Truck",
       "width": 5,
       "height": 5,
-      "image": "/images/planner/season-5/old-truck.png",
+      "image": "/images/planner/season-6/old-truck.png",
       "color": "#DC2626",
       "seasons": [
         "S5"
@@ -686,7 +686,7 @@
       "name": "Old Truck",
       "width": 5,
       "height": 6,
-      "image": "/images/planner/season-5/old-truck-2.png",
+      "image": "/images/planner/season-6/old-truck-2.png",
       "color": "#DC2626",
       "seasons": [
         "S5"
@@ -698,7 +698,7 @@
       "name": "Old Car",
       "width": 4,
       "height": 4,
-      "image": "/images/planner/season-5/old-car.png",
+      "image": "/images/planner/season-6/old-car.png",
       "color": "#DC2626",
       "seasons": [
         "S5"
@@ -710,7 +710,7 @@
       "name": "Sign Post",
       "width": 3,
       "height": 2,
-      "image": "/images/planner/season-5/sign-post.png",
+      "image": "/images/planner/season-6/sign-post.png",
       "color": "#DC2626",
       "seasons": [
         "S5"
@@ -722,7 +722,7 @@
       "name": "Sign Post (L)",
       "width": 3,
       "height": 3,
-      "image": "/images/planner/season-5/sign-post-2.png",
+      "image": "/images/planner/season-6/sign-post-2.png",
       "color": "#DC2626",
       "seasons": [
         "S5"
@@ -734,7 +734,7 @@
       "name": "Mountain (L)",
       "width": 13,
       "height": 10,
-      "image": "/images/planner/season-5/mountain.png",
+      "image": "/images/planner/season-6/mountain.png",
       "color": "#DC2626",
       "seasons": [
         "S5"
@@ -746,7 +746,7 @@
       "name": "Mountain (L)",
       "width": 12,
       "height": 12,
-      "image": "/images/planner/season-5/mountain-2.png",
+      "image": "/images/planner/season-6/mountain-2.png",
       "color": "#DC2626",
       "seasons": [
         "S5"
@@ -758,7 +758,7 @@
       "name": "Mountain (L)",
       "width": 13,
       "height": 11,
-      "image": "/images/planner/season-5/mountain-3.png",
+      "image": "/images/planner/season-6/mountain-3.png",
       "color": "#DC2626",
       "seasons": [
         "S5"
@@ -770,7 +770,7 @@
       "name": "Mountain (S)",
       "width": 10,
       "height": 8,
-      "image": "/images/planner/season-5/mountain-4.png",
+      "image": "/images/planner/season-6/mountain-4.png",
       "color": "#DC2626",
       "seasons": [
         "S5"
@@ -782,7 +782,7 @@
       "name": "Train Tracks (Horizontal)",
       "width": 9,
       "height": 3,
-      "image": "/images/planner/season-5/train-tracks-horizontal.png",
+      "image": "/images/planner/season-6/train-tracks-horizontal.png",
       "color": "#DC2626",
       "seasons": [
         "S5"
@@ -795,7 +795,7 @@
       "name": "Train Tracks (Vertical)",
       "width": 3,
       "height": 9,
-      "image": "/images/planner/season-5/train-tracks-vertical.png",
+      "image": "/images/planner/season-6/train-tracks-vertical.png",
       "color": "#DC2626",
       "seasons": [
         "S5"

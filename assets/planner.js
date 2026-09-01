@@ -2,30 +2,30 @@
   var page = document.body.dataset.page;
   if (page !== "planner") return;
 
-  var SEASON = 5;
+  var SEASON = 6;
   var MAP_SCALE = 0.5;
   var DATASET_URLS = {
     strategic: [
-      "../../assets/data/season-5-strategic-poi.json",
-      "/assets/data/season-5-strategic-poi.json",
-      "assets/data/season-5-strategic-poi.json"
+      "../../assets/data/season-6-strategic-poi.json",
+      "/assets/data/season-6-strategic-poi.json",
+      "assets/data/season-6-strategic-poi.json"
     ],
     raw: [
-      "../../assets/data/season-5-poi-points.json",
-      "/assets/data/season-5-poi-points.json",
-      "assets/data/season-5-poi-points.json"
+      "../../assets/data/season-6-poi-points.json",
+      "/assets/data/season-6-poi-points.json",
+      "assets/data/season-6-poi-points.json"
     ]
   };
   var VIEWBOX_SIZE = 3000 * MAP_SCALE;
   var STORAGE_KEYS = {
-    GRIDS: "area-map-grids-season-5",
-    CURRENT_GRID_ID: "area-map-current-grid-id-season-5"
+    GRIDS: "area-map-grids-season-6",
+    CURRENT_GRID_ID: "area-map-current-grid-id-season-6"
   };
   var SEASON_CONFIG = {
-    name: "Season 5",
-    resources: ["crystalGold", "influence"],
+    name: "Season 6",
+    resources: ["coin", "influence"],
     resourceLabels: {
-      crystalGold: "CrystalGold/h",
+      coin: "Coin/h",
       influence: "Influence"
     },
     battle: {
@@ -172,7 +172,7 @@
   function loadData(urls, index) {
     var current = index || 0;
     if (current >= urls.length) {
-      return Promise.reject(new Error("Season 5 points dataset non raggiungibile"));
+      return Promise.reject(new Error("Season 6 points dataset non raggiungibile"));
     }
 
     return readJson(urls[current]).catch(function () {
@@ -236,11 +236,11 @@
     if (point.category === "regional_zone") return "city";
     if (point.category === "road") return "city";
     if (point.category === "stronghold_territory") return "bank";
-    if (point.category === "capital") return "golden_palace";
+    if (point.category === "capital") return "sanctuary";
     if (point.category === "nexus") return "nexus";
     if (point.category === "outpost") return "outpost";
     if (point.category === "trade_post") return "trade_post";
-    if (point.category === "crystal_mine") return "crystal_mine";
+    if (point.category === "fishing_ground") return "fishing_ground";
     return point.category;
   }
 
@@ -304,7 +304,7 @@
     var maxY = -Infinity;
     var totalX = 0;
     var totalY = 0;
-    var crystalGold = 0;
+    var coin = 0;
     var influence = 0;
     var buff = null;
 
@@ -320,7 +320,7 @@
       totalX += cell.x;
       totalY += cell.y;
       if (cell.resources) {
-        crystalGold += cell.resources.crystalGold || 0;
+        coin += cell.resources.coin || 0;
         influence += cell.resources.influence || 0;
       }
       if (!buff && cell.buff) buff = cell.buff;
@@ -346,9 +346,9 @@
       height: maxY - minY,
       cells: cells,
       buff: buff,
-      resources: crystalGold || influence ? { crystalGold: crystalGold, influence: influence } : null,
+      resources: coin || influence ? { coin: coin, influence: influence } : null,
       meta: first.meta || {},
-      isCapitol: kind === "golden_palace"
+      isCapitol: kind === "sanctuary"
     };
   }
 
@@ -402,7 +402,7 @@
   function defaultGrid(name) {
     return {
       id: "s5-" + slug(),
-      name: name || "Season 5 - Main Server",
+      name: name || "Season 6 - Main Server",
       alliances: [],
       pathSteps: [],
       showStrongholds: false,
@@ -550,7 +550,7 @@
       "<span class=\"palette-note\">Priority P" + (selectedAlliance.priorityRank || "-") + " · Weight " + (selectedAlliance.priorityWeight || "-") + (selectedAlliance.serverSector ? " · WZ" + selectedAlliance.serverSector : "") + "</span>" +
       "<span class=\"palette-note\">Cities " + selectedCounts.cities.current + "/" + selectedCounts.cities.max +
       " · Strongholds " + selectedCounts.strongholds.current + "/" + selectedCounts.strongholds.max + "</span>" +
-      "<span class=\"palette-note\">" + SEASON_CONFIG.resourceLabels.crystalGold + " " + resourceTotals.crystalGold +
+      "<span class=\"palette-note\">" + SEASON_CONFIG.resourceLabels.coin + " " + resourceTotals.coin +
       " · " + SEASON_CONFIG.resourceLabels.influence + " " + resourceTotals.influence + "</span>" +
       "<span class=\"palette-note\">Battle slots/day " + SEASON_CONFIG.battle.slotsPerDay + " · Safe time " + (selectedAlliance.safeTimeHours || SEASON_CONFIG.battle.safeTimeHours) + "h · Preferred slot S" + (selectedAlliance.safeTimeSlot || 2) + "</span>" +
       "<span class=\"palette-note\">Starting territory " + (startArea ? pointName(startArea) + " Lv." + startArea.level : "not set") + "</span>";
@@ -590,8 +590,11 @@
       "Bank Stronghold": "BK",
       "Trade Post": "TP",
       "Warzone Outpost": "WO",
-      "Grand Nexus": "GN",
-      "Golden Palace": "GP",
+      "Wetland Assembly": "WA",
+      "Deepwood Assembly": "DA",
+      "Wetland Sanctuary": "WS",
+      "Deepwood Sanctuary": "DS",
+      
       "Coyote Town": "CT",
       "Waterhold": "WH",
       "Derby Grounds": "DG",
@@ -660,7 +663,7 @@
     if (owner) return owner.color;
 
     switch (point.territoryKind || point.category) {
-      case "golden_palace":
+      case "sanctuary":
         return "#ffd54f";
       case "nexus":
         return "#64b5f6";
@@ -668,7 +671,7 @@
         return "#ef5350";
       case "trade_post":
         return "#ffb74d";
-      case "crystal_mine":
+      case "fishing_ground":
         return "#ce93d8";
       case "city":
         if (point.category === "road" || pointName(point) === "Lawless Road") return "#b0a36b";
@@ -687,13 +690,13 @@
   function fillOpacity(point) {
     if (assignedAlliance(point.id)) return 0.92;
     switch (point.territoryKind || point.category) {
-      case "golden_palace":
+      case "sanctuary":
       case "nexus":
       case "outpost":
         return 0.98;
       case "trade_post":
         return 0.94;
-      case "crystal_mine":
+      case "fishing_ground":
         return 0.92;
       case "city":
         return 0.9;
@@ -775,7 +778,7 @@
   }
 
   function sumAllianceResources(alliance) {
-    var totals = { crystalGold: 0, influence: 0 };
+    var totals = { coin: 0, influence: 0 };
     alliance.areaIds.forEach(function (pointId) {
       var point = pointById(pointId);
       if (!point || !point.resources) return;
@@ -833,7 +836,7 @@
   }
 
   function isTraversalPoint(point) {
-    return point.territoryKind === "golden_palace" ||
+    return point.territoryKind === "sanctuary" ||
       point.territoryKind === "nexus" ||
       point.territoryKind === "city" ||
       point.territoryKind === "bank";
@@ -916,7 +919,7 @@
     if (!palace) return [];
     return allPoints.filter(function (point) {
       return point.id === palace.id ||
-        (point.category === "crystal_mine" && pointsAdjacent(point, palace));
+        (point.category === "fishing_ground" && pointsAdjacent(point, palace));
     });
   }
 
@@ -1204,7 +1207,7 @@
   function simulationProfiles(rank) {
     if (rank === "elite") {
       return [
-        { key: "via-nexus", label: "Via Grand Nexus" },
+        { key: "via-nexus", label: "Via Assembly" },
         { key: "safe", label: "Balanced Push" },
         { key: "cannon-heavy", label: "Cannon Control" },
         { key: "direct", label: "Direct Breach" },
@@ -1228,23 +1231,20 @@
 
   function setSimulationNote(message) {
     if (!simulationNote) return;
+    // Le regole di conquista Season 6 non sono ancora state trascritte dalla guida
+    // pubblica: finche` non lo sono, qui non va scritto nessun numero, per non
+    // spacciare le finestre di attacco della Season 6 per regole valide.
     simulationNote.innerHTML =
-      "<strong>Season 5 conquest rules</strong>" +
+      "<strong>Season 6 conquest rules</strong>" +
       "<span class=\"palette-note\">" + message + "</span>" +
-      "<span class=\"palette-note\">Warzone Outpost attack window: <strong>Friday</strong> of Week 5, 6 and 7 – 12h post daily reset. All 8 outposts open simultaneously. Each outpost grants <strong>100k influence</strong> to every alliance in the war zone.</span>" +
-      "<span class=\"palette-note\">Golden Palace attack window: <strong>Saturday</strong> of Week 5, 6 and 7 at 13:00 server time. Requires adjacent land through a lv 10 Bank or lv 10 City. GP awards 1.8m influence.</span>" +
-      "<span class=\"palette-note\">4 cardinal outposts (N/S/E/W of GP) also serve as cannon positions during the GP siege.</span>" +
-      "<span class=\"palette-note\">Dual strategy: Alliance A takes GP + 4 lv10 cities; Alliance B takes all 8 outposts → both qualify for challenge rewards.</span>" +
-      "<span class=\"palette-note\">Territory timers: <strong>Banks expire every 3 days</strong> (re-capture required); <strong>Cities expire every 6 days</strong>. Defending a city only extends ownership one window — attacker wins it for 6 days with a single victory.</span>" +
-      "<span class=\"palette-note\">Trade posts do NOT count as territory for adjacency purposes. Alliance immunity: up to 15h/day — only 2 effective attack windows per 24h remain.</span>" +
-      "<span class=\"palette-note\">⚠ This simulation does not yet model bank/city expiry cycles. Treat day counts as minimum conquest time, not total season plan.</span>";
+      "<span class=\"palette-note\">⚠ Regole Season 6 da trascrivere: finestre di attacco, condizione di adiacenza ai Sanctuary, influence per obiettivo, scadenze territori. Vedi docs/season6-data-method.md.</span>";
   }
 
   function resourceTotalsForPath(routeIds) {
-    var totals = { crystalGold: 0, influence: 0 };
+    var totals = { coin: 0, influence: 0 };
     routeIds.map(pointById).filter(Boolean).forEach(function (point) {
       if (!point.resources) return;
-      totals.crystalGold += point.resources.crystalGold || 0;
+      totals.coin += point.resources.coin || 0;
       totals.influence += point.resources.influence || 0;
     });
     return totals;
@@ -1260,7 +1260,7 @@
     routeIds.map(pointById).filter(Boolean).forEach(function (point) {
       if (isCity(point)) counts.cities += 1;
       if (point.territoryKind === "bank") counts.banks += 1;
-      if (point.territoryKind === "golden_palace") counts.palace += 1;
+      if (point.territoryKind === "sanctuary") counts.palace += 1;
     });
 
     return counts;
@@ -1273,7 +1273,7 @@
 
   function pointResourceScore(point) {
     if (!point || !point.resources) return point && point.level ? point.level * 100 : 0;
-    return (point.resources.influence || 0) + ((point.resources.crystalGold || 0) * 1000) + ((point.level || 0) * 100);
+    return (point.resources.influence || 0) + ((point.resources.coin || 0) * 1000) + ((point.level || 0) * 100);
   }
 
   function releaseCandidate(ownedIds, remainingRouteIds, alliance, kind) {
@@ -1401,7 +1401,7 @@
       cityCapacity: state.counts.cities.max,
       banksOwned: state.counts.strongholds.current,
       bankCapacity: state.counts.strongholds.max,
-      crystalGold: state.resources.crystalGold,
+      coin: state.resources.coin,
       influence: state.resources.influence,
       ownedClasses: Object.assign({}, state.ownedClasses),
       safeTimeHours: state.alliance && state.alliance.safeTimeHours ? state.alliance.safeTimeHours : SEASON_CONFIG.battle.safeTimeHours,
@@ -1456,7 +1456,7 @@
         cityCapacity: state.counts.cities.max,
         banksOwned: state.counts.strongholds.current,
         bankCapacity: state.counts.strongholds.max,
-        crystalGold: state.resources.crystalGold,
+        coin: state.resources.coin,
         influence: state.resources.influence
       };
     });
@@ -1509,7 +1509,7 @@
     if (nextDesiredId === point.id) score += 500;
     if (point.territoryKind === "bank") score += 40 + point.level * 18;
     if (point.territoryKind === "city") score += 60 + cityOpportunityScore(point) / 10000;
-    if (point.territoryKind === "golden_palace") score += 900;
+    if (point.territoryKind === "sanctuary") score += 900;
     score += Math.max(0, 80 - distanceToPalaceZone(point) / 40);
     if (preferredSide && pointSideName === preferredSide) score += 65;
     if (preferredSide && pointSideName && pointSideName !== preferredSide && !desiredSet[point.id]) score -= 45;
@@ -1705,7 +1705,7 @@
             var role = stepRoleFor(point, "capture");
             if ((alliance.priorityRank || 99) <= 3 && role !== "main-trunk" && sideCapturesToday >= maxSideCapturesToday) return false;
             if ((alliance.priorityRank || 99) <= 3 && slotIndex <= 2 && role !== "main-trunk") return false;
-            if (point.territoryKind === "golden_palace") return isWarDay(state.day);
+            if (point.territoryKind === "sanctuary") return isWarDay(state.day);
             if (point.territoryKind === "city") return isWarDay(state.day) && state.cityCapturesToday < 3;
             if (point.territoryKind === "bank") return state.bankCapturesToday < 2;
             return false;
@@ -1738,7 +1738,7 @@
         refreshAllianceDayState(state);
         capturedToday += 1;
 
-        if (candidate.territoryKind === "golden_palace") {
+        if (candidate.territoryKind === "sanctuary") {
           schedule.timeline = attachStateTimeline(schedule, alliance);
           return schedule;
         }
@@ -1812,7 +1812,7 @@
       if (owned[areaId]) return;
       var point = pointById(areaId);
       if (!point) return;
-      if (point.territoryKind !== "bank" && point.territoryKind !== "city" && point.territoryKind !== "golden_palace") return;
+      if (point.territoryKind !== "bank" && point.territoryKind !== "city" && point.territoryKind !== "sanctuary") return;
       var remainingRouteIds = routeIds.slice(routeIds.indexOf(areaId) + 1);
 
       while (true) {
@@ -1849,7 +1849,7 @@
           nextDay();
           continue;
         }
-        if (point.territoryKind === "golden_palace") {
+        if (point.territoryKind === "sanctuary") {
           if (isWarDay(day)) break;
           nextDay();
           continue;
@@ -1882,7 +1882,7 @@
           cityCapacity: 0,
           banksOwned: 0,
           bankCapacity: 0,
-          crystalGold: 0,
+          coin: 0,
           influence: 0,
           slotsUsed: {}
         };
@@ -1892,14 +1892,14 @@
       } else {
         if (step.territoryKind === "bank") days[step.day].banks += 1;
         if (step.territoryKind === "city") days[step.day].cities += 1;
-        if (step.territoryKind === "golden_palace") days[step.day].palace += 1;
+        if (step.territoryKind === "sanctuary") days[step.day].palace += 1;
       }
       if (step.stateAfter) {
         days[step.day].citiesOwned = step.stateAfter.citiesOwned;
         days[step.day].cityCapacity = step.stateAfter.cityCapacity;
         days[step.day].banksOwned = step.stateAfter.banksOwned;
         days[step.day].bankCapacity = step.stateAfter.bankCapacity;
-        days[step.day].crystalGold = step.stateAfter.crystalGold;
+        days[step.day].coin = step.stateAfter.coin;
         days[step.day].influence = step.stateAfter.influence;
       }
       if (step.slotIndex) days[step.day].slotsUsed[step.slotIndex] = true;
@@ -2003,7 +2003,7 @@
     var weights = {
       access: plan.hasAccess ? 1200 : 0,
       influence: plan.metrics.influence / 10000,
-      crystal: plan.metrics.crystalGold * 8,
+      crystal: plan.metrics.coin * 8,
       cities: plan.metrics.cities * 140,
       banks: plan.metrics.banks * 90,
       releases: -plan.metrics.releases * 45,
@@ -2139,7 +2139,7 @@
           '<div class="simulation-metric">War days used: ' + plan.metrics.warDaysUsed + "</div>" +
           '<div class="simulation-metric simulation-metric--season">Season influence (8 wks): ' + (plan.metrics.seasonInfluence || plan.metrics.influence) + "</div>" +
           '<div class="simulation-metric">Initial capture influence: ' + plan.metrics.influence + "</div>" +
-          '<div class="simulation-metric">CrystalGold/h: ' + plan.metrics.crystalGold + "</div>" +
+          '<div class="simulation-metric">Coin/h: ' + plan.metrics.coin + "</div>" +
           '<div class="simulation-metric">Cities: ' + plan.metrics.cities + "</div>" +
           '<div class="simulation-metric">Banks: ' + plan.metrics.banks + "</div>" +
           '<div class="simulation-metric">Releases: ' + plan.metrics.releases + "</div>" +
@@ -2181,7 +2181,7 @@
 
     var entries = centralBankStrongholds();
     if (!frontier || !entries.length) {
-      setSimulationNote("No valid Season 5 graph data found for Golden Palace simulation.");
+      setSimulationNote("No valid Season 6 graph data found for Sanctuary simulation.");
       return;
     }
 
@@ -2257,7 +2257,7 @@
             warDaysUsed: warDaysUsed,
             peakDayCaptures: peakDayCaptures,
             inefficiency: Math.max(0, routeIds.length - candidate.path.length),
-            crystalGold: resourceTotals.crystalGold,
+            coin: resourceTotals.coin,
             influence: resourceTotals.influence,
             cities: categoryCounts.cities,
             banks: categoryCounts.banks,
@@ -2278,7 +2278,7 @@
         plan.metrics.cityRecaptures = maintenance.cityRecaptures;
         plan.metrics.totalSeasonFightDays = maintenance.totalSeasonFightDays;
         // Season-total influence: initial captures + recaptures over 56 days
-        // GP and outpost have 3 battle windows (Weeks 5-7); count additional 2 captures if on route
+        // Sanctuary and outpost have 3 battle windows (Weeks 5-7); count additional 2 captures if on route
         var gpPoint = allPoints.filter(function (p) { return p.category === "palace"; })[0];
         var gpOnRoute = gpPoint && routeIds.indexOf(gpPoint.id) !== -1;
         var gpSeasonBonus = gpOnRoute ? (gpPoint.resources && gpPoint.resources.influence || 1800000) * 2 : 0;
@@ -2290,7 +2290,7 @@
 
         var routeIncludesNexus = nexusPoint && routeIds.indexOf(nexusPoint.id) !== -1;
         plan.summary =
-          profile.label + " via " + (routeIncludesNexus ? "Grand Nexus → " : "") + pointName(candidate.entry) + " Lv." + candidate.entry.level +
+          profile.label + " via " + (routeIncludesNexus ? "Assembly → " : "") + pointName(candidate.entry) + " Lv." + candidate.entry.level +
           " · " + categoryCounts.banks + " banks and " + categoryCounts.cities + " cities on the route" +
           " · " + totalReleases + " releases" +
           " · " + plan.metrics.totalDays + " day conquest" +
@@ -2354,7 +2354,7 @@
           warDaysUsed: warDaysUsed,
           peakDayCaptures: peakDayCaptures,
           inefficiency: Math.max(0, routeIds.length - candidate.path.length),
-          crystalGold: resourceTotals.crystalGold,
+          coin: resourceTotals.coin,
           influence: resourceTotals.influence + outpostBonus,
           cities: categoryCounts.cities,
           banks: categoryCounts.banks,
@@ -2409,7 +2409,7 @@
 
     var accessReady = allianceHasGoldenPalaceAccess(alliance);
     setSimulationNote(
-      (accessReady ? "Alliance already has a valid Golden Palace attack condition. " : "Alliance does not yet own a valid Golden Palace attack tile; compare the generated schedules before applying one. ") +
+      (accessReady ? "Alliance already has a valid Sanctuary attack condition. " : "Alliance does not yet own a valid Sanctuary attack tile; compare the generated schedules before applying one. ") +
       (simulationPlans.length ? "The best plan is now previewed on the map. " : "") +
       "Generated " + simulationPlans.length + " ranked day-by-day conquest plans for profile " + rank + "."
     );
@@ -2574,7 +2574,7 @@
         "<span class=\"palette-note\">" + (point.territoryKind || point.category) + " · " + point.gridX + ", " + point.gridY + "</span>" +
         (step.day ? "<span class=\"palette-note\">" + (step.action === "release" ? "Release" : "Conquer") + " on day " + step.day + (step.slotLabel ? " in " + step.slotLabel : "") + "</span>" : "") +
         (step.stateAfter ? "<span class=\"palette-note\">After step: cities " + step.stateAfter.citiesOwned + "/" + step.stateAfter.cityCapacity + " · banks " + step.stateAfter.banksOwned + "/" + step.stateAfter.bankCapacity + "</span>" : "") +
-        (step.stateAfter ? "<span class=\"palette-note\">Yield after step: " + step.stateAfter.crystalGold + " CrystalGold/h · " + step.stateAfter.influence + " Influence</span>" : "") +
+        (step.stateAfter ? "<span class=\"palette-note\">Yield after step: " + step.stateAfter.coin + " Coin/h · " + step.stateAfter.influence + " Influence</span>" : "") +
         (step.note ? "<span class=\"palette-note\">" + step.note + "</span>" : "");
       routePanel.appendChild(node);
     });
@@ -2610,7 +2610,7 @@
         '<span class="palette-note">Actions: ' + dayState.actions.length + " · Slots " + slotsText + "</span>" +
         '<span class="palette-note">Safe time ' + dayState.safeTimeHours + 'h · Preferred slot ' + battleSlotLabel(dayState.safeTimeSlot) + "</span>" +
         '<span class="palette-note">Cities ' + dayState.citiesOwned + "/" + dayState.cityCapacity + " · Banks " + dayState.banksOwned + "/" + dayState.bankCapacity + "</span>" +
-        '<span class="palette-note">Yield ' + dayState.crystalGold + " CrystalGold/h · " + dayState.influence + " Influence</span>" +
+        '<span class="palette-note">Yield ' + dayState.coin + " Coin/h · " + dayState.influence + " Influence</span>" +
         '<span class="palette-note">Keep ' + classCounts.keep + " · Yield nodes " + classCounts.yield + " · Release candidates " + classCounts["release-candidate"] + "</span>" +
         '<span class="timeline-actions">' + (actionsText || "No actions") + "</span>";
       timelinePanel.appendChild(node);
@@ -2775,7 +2775,7 @@
   function shouldShowLabel(point) {
     var grid = currentGrid();
     if (!grid) return false;
-    if (point.territoryKind === "golden_palace" || point.territoryKind === "nexus" || point.territoryKind === "outpost") return true;
+    if (point.territoryKind === "sanctuary" || point.territoryKind === "nexus" || point.territoryKind === "outpost") return true;
     if (point.territoryKind === "bank") return grid.showStrongholds;
     if (point.territoryKind === "city") return grid.showCities;
     return false;
@@ -2874,7 +2874,7 @@
     renderWarzoneOverlays();
     var visiblePoints = filteredPoints();
     visiblePoints.forEach(function (point) {
-      if (point.territoryKind === "golden_palace" || point.territoryKind === "nexus" || point.territoryKind === "outpost") {
+      if (point.territoryKind === "sanctuary" || point.territoryKind === "nexus" || point.territoryKind === "outpost") {
         renderMarker(point);
       } else {
         renderRect(point);
@@ -2920,7 +2920,7 @@
       grids = grids.map(function (grid, index) {
         return {
           id: grid && grid.id ? grid.id : "s5-restored-" + index,
-          name: grid && grid.name ? grid.name : "Season 5 - Restored Grid " + (index + 1),
+          name: grid && grid.name ? grid.name : "Season 6 - Restored Grid " + (index + 1),
           alliances: Array.isArray(grid && grid.alliances) ? grid.alliances.map(normalizeAlliance) : [],
           pathSteps: Array.isArray(grid && grid.pathSteps) ? grid.pathSteps : [],
           showStrongholds: !!(grid && grid.showStrongholds),
@@ -2954,7 +2954,7 @@
   }
 
   function createGrid() {
-    var name = "Season 5 - Grid " + (grids.length + 1);
+    var name = "Season 6 - Grid " + (grids.length + 1);
     var grid = defaultGrid(name);
     grids.push(grid);
     currentGridId = grid.id;
@@ -3038,7 +3038,7 @@
   }
 
   function init() {
-    meta.textContent = "Caricamento point model Season 5...";
+    meta.textContent = "Caricamento point model Season 6...";
     initGrids();
 
     Promise.all([
@@ -3051,13 +3051,13 @@
         allPoints = buildAllPoints(strategicData, rawData);
         points = buildPlannerPoints(strategicData, rawData);
         meta.textContent =
-          points.length + " aree strategiche Season 5 caricate · POI validati + city/resources";
+          points.length + " aree strategiche Season 6 caricate · POI validati + city/resources";
         render();
         setTimeout(focusGoldenPalace, 50);
       })
       .catch(function (error) {
         meta.textContent = "Errore caricamento points: " + error.message;
-        status.textContent = "Season 5 points non disponibili";
+        status.textContent = "Season 6 points non disponibili";
       });
   }
 
